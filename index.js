@@ -3,7 +3,7 @@
  */
 window.addEventListener('DOMContentLoaded', startFunction);
 
-
+//description
 function startFunction() {
     const likeButton = document.getElementById('button3');
     const subscribeButton = document.getElementById('button2');
