@@ -1,32 +1,40 @@
 body {
-    background-color: rgb(73, 102, 129);
+    background-color: rgb(1, 24, 46);
     
 }
 
 h3 {
-    color:rgb(1, 30, 80);
+    color:rgb(129, 156, 204);
 }
 
 h2 {
     color: #1222ff;
 }
 
-#name {
-    color:rgb(255, 200, 0);
-    text-align: center;
-    font-size: 6vw;
+p {
+    color: rgb(165, 189, 229);
+    font-size: 1vw;
 }
 
-#welcome {
-    color:rgb(250, 142, 0);
+#name {
+    color:rgb(197, 209, 236);
     text-align: center;
     font-size: 5vw;
 }
 
+#welcome {
+    color:rgb(126, 140, 202);
+    text-align: center;
+    font-size: 4vw;
+}
+
 #software {
-    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
     font-weight: bold;
-    background: -webkit-linear-gradient(#ffd30e, #17c250);
+    font-family: 'Courier New', Courier, monospace;
+    background: -webkit-linear-gradient(#fcff4c, #0f9e3f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -36,6 +44,36 @@ h2 {
     gap: 2vw;
     align-items: center;
     justify-content: center;
+}
+
+#resume {
+    background: url("./img/resume.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    animation: fade-in 0.5s;
+}
+
+#projects {
+    background: url("./img/projects.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    animation: fade-in 0.5s;
+}
+
+#hobbies {
+    background: url("./img/hobbies.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    animation: fade-in 0.5s;
 }
 
 .button {
@@ -48,11 +86,12 @@ h2 {
     overflow: hidden;
     cursor: pointer;
     border: 0;
-    box-shadow: 0px 5px 10px 0px rgba(84, 92, 209, 0.658);
+    box-shadow: 0px 5px 10px 0px rgba(84, 92, 209, 0.5);
     
     transition: ease 0.2s;
 }
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0px 10px 20px 2px rgba(255, 196, 0, 0.25);
+  box-shadow: 0px 5px 10px 0px rgb(75, 84, 218);
+  /* box-shadow: 0px 10px 20px 2px rgba(255, 154, 2, 0.5); */
 }
