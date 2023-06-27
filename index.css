@@ -1,6 +1,6 @@
 body {
     background-color: rgb(1, 24, 46);
-    
+    padding-top: 6%;
 }
 
 h3 {
@@ -21,6 +21,7 @@ p {
 
 #name {
     color:rgb(197, 209, 236);
+    padding-bottom: 0.5%;
     text-align: center;
     font-size: 5vw;
     font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
@@ -53,12 +54,13 @@ p {
 #sticky {
     position: sticky;
     top: 0;
-    background: rgb(1, 24, 46, 0.1);
+    background: rgb(1, 24, 46, 0.2);
+    z-index: 3;
 }
 
 #blur {
-    -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
 }
 
 #aboutMe {
