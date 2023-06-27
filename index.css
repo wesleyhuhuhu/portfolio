@@ -5,27 +5,33 @@ body {
 
 h3 {
     color:rgb(129, 156, 204);
+    font-family: 'Lato', sans-serif;
 }
 
 h2 {
-    color: #1222ff;
+    color:rgb(197, 209, 236);
 }
 
 p {
     color: rgb(165, 189, 229);
-    font-size: 1vw;
+    font-size: 1.3vw;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 #name {
     color:rgb(197, 209, 236);
     text-align: center;
     font-size: 5vw;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
 }
 
 #welcome {
     color:rgb(126, 140, 202);
     text-align: center;
     font-size: 4vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 #software {
@@ -38,6 +44,64 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#degree {
+    font-size: 2vw;
+}
+
+#aboutMe {
+    font-family: 'Inter',sans-serif;
+    font-size: 3vw;
+    display: inline-block;
+    width: 100%;
+}
+
+#aboutMe:after {
+    background-color: rgb(165, 189, 229);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+    left: 0.75em;
+  }
+
+#education {
+    font-family: 'Inter',sans-serif;
+    font-size: 3vw;
+    display: inline-block;
+    width: 100%;
+}
+
+#education:after {
+  background-color: rgb(165, 189, 229);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+  left: 0.75em;
+}
+
+#projectTitle {
+    font-family: 'Inter',sans-serif;
+    font-size: 3vw;
+    display: inline-block;
+    width: 100%;
+}
+
+#projectTitle:after {
+    background-color: rgb(165, 189, 229);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+    left: 0.75em;
+  }
 
 #buttons {
     display: flex;
