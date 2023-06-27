@@ -1,13 +1,15 @@
-/*
- * Event listener to start functions once DOM is loaded
- */
-window.addEventListener('DOMContentLoaded', startFunction);
 
-//description
-function startFunction() {
-    const likeButton = document.getElementById('button3');
-    const subscribeButton = document.getElementById('button2');
-    likeButton.addEventListener('click', changeStyle) {
-        subscribeButton.style.backgroundColor = "blue";
-    }
-}
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+        else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
