@@ -45,8 +45,20 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
-#degree {
-    font-size: 2vw;
+#menu {
+    margin-left: 20vw;
+    padding-left: min(50px, 5%);
+}
+
+#sticky {
+    position: sticky;
+    top: 0;
+    background: rgb(1, 24, 46, 0.1);
+}
+
+#blur {
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 
 #aboutMe {
@@ -63,7 +75,7 @@ p {
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 40%;
+    width: 30%;
     left: 0.75em;
   }
 
@@ -81,8 +93,12 @@ p {
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 40%;
+  width: 30%;
   left: 0.75em;
+}
+
+#degree {
+    font-size: 2vw;
 }
 
 #projectTitle {
@@ -99,7 +115,7 @@ p {
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 40%;
+    width: 30%;
     left: 0.75em;
   }
 
