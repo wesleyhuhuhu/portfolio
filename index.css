@@ -221,13 +221,16 @@ p {
 
 .email {
     position: sticky;
-    top: 50%;
+    position:-webkit-sticky;
+    top: 30%;
 }
 
 .email a {
     writing-mode: vertical-rl;
     float: right;
     padding: 10px;
-    font-size: min(3vh, 1.75vw);
+    font-size: min(3vh, 1.5vw);
     font-family: 'SF Mono',monospace;
+    margin-top: 10%;
+    margin-right: 2%;
 }
