@@ -21,7 +21,7 @@ p {
 }
 
 #empty {
-    margin-top: 4%;
+    margin-top: -1%;
 }
 
 #menu {
@@ -217,4 +217,17 @@ p {
 .descriptionProjects {
     min-height: 50vh;
     transition-delay: 500ms;
+}
+
+.email {
+    position: sticky;
+    top: 50%;
+}
+
+.email a {
+    writing-mode: vertical-rl;
+    float: right;
+    padding: 10px;
+    font-size: min(3vh, 1.75vw);
+    font-family: 'SF Mono',monospace;
 }
