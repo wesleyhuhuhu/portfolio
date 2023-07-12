@@ -116,7 +116,7 @@ nav a {
     position: relative;
     font-size: 5vw;
     font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
-    z-index: 5;
+    z-index: 3;
 }
 
 #welcome {

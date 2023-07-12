@@ -29,6 +29,16 @@ function isInViewport(element) {
     );
 }
 
+const resumeDownload = document.querySelector('.button');
+resumeDownload.addEventListener('click', function (event) {
+    const anchor = document.createElement('a');
+    anchor.href = '/files/Wesley Software Engineer Resume.pdf';
+    anchor.download = 'Wesley\'s Resume.pdf';
+
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+})
 
 addEventListener('scroll', e => {
     const scrollTop = document.body.scrollTop;
