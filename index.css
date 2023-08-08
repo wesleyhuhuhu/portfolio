@@ -57,6 +57,7 @@ nav a {
 }
 
 .resume {
+    padding: 12px 50px;
     color: rgb(255, 255, 255);
     font-family: 'Lato', sans-serif;
     line-height: 40px;
