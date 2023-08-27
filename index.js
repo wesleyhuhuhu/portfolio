@@ -40,7 +40,7 @@ function isInViewport(element) {
 //     document.body.removeChild(anchor);
 // })
 
-const resumeDownload = document.getElementById(download);
+//const resumeDownload = document.getElementById(download);
 
 
 addEventListener('scroll', e => {
